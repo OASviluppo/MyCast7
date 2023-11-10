@@ -65,7 +65,7 @@ export const Badge = (props: Props) => {
         style={{
           "font-weight": "bold",
           color: props.poweredByTextColor ?? defaultTextColor,
-          "background-color": props.badgeBackgroundColor ?? "#ffffff"
+          "background-color": "#ffffff"
         }}
       >
         <span> Oa Service</span>
