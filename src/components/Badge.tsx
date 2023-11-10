@@ -50,8 +50,9 @@ export const Badge = (props: Props) => {
         margin: "auto",
         width: "100%",
         "text-align": "center",
+        // "background-color": props.badgeBackgroundColor ?? "#ffffff",
+        "background-color": "white",
         color: props.poweredByTextColor ?? defaultTextColor,
-        "background-color": props.badgeBackgroundColor ?? "#ffffff",
       }}
     >
       Powered by
@@ -64,8 +65,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{
           "font-weight": "bold",
-          color: props.poweredByTextColor ?? defaultTextColor,
-          "background-color": "#ffffff"
+          color: props.poweredByTextColor ?? defaultTextColor,          
         }}
       >
         <span> Oa Service</span>
