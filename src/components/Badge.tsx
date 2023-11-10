@@ -52,6 +52,7 @@ export const Badge = (props: Props) => {
         "text-align": "center",
         "background-color": props.badgeBackgroundColor ?? "#ffffff",
         color: props.poweredByTextColor ?? defaultTextColor,
+        "margin-bottom":"20px",
       }}
     >
       Powered by
