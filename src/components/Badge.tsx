@@ -36,9 +36,9 @@ export const Badge = (props: Props) => {
   //   });
   // });
 
-  onCleanup(() => {
-    if (observer) observer.disconnect();
-  });
+  // onCleanup(() => {
+  //   if (observer) observer.disconnect();
+  // });
 
   return (
     <span
@@ -68,7 +68,7 @@ export const Badge = (props: Props) => {
           color: props.poweredByTextColor ?? defaultTextColor,          
         }}
       >
-        <span> Oa Rizzio Cosa Belo Service</span>
+        <span> Oa Service</span>
       </a>
     </span>
   );
