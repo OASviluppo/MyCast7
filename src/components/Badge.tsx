@@ -10,7 +10,7 @@ const defaultTextColor = "#303235";
 
 export const Badge = (props: Props) => {
   let liteBadge: HTMLAnchorElement | undefined;
-  let observer: MutationObserver | undefined;
+  // let observer: MutationObserver | undefined;
 
   // const appendBadgeIfNecessary = (mutations: MutationRecord[]) => {
   //   mutations.forEach((mutation) => {
@@ -68,7 +68,7 @@ export const Badge = (props: Props) => {
           color: props.poweredByTextColor ?? defaultTextColor,          
         }}
       >
-        <span> Oa Service Nuovo</span>
+        <span> Oa Service</span>
       </a>
     </span>
   );
