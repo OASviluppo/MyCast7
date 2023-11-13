@@ -55,7 +55,7 @@ export const Badge = (props: Props) => {
         "margin-bottom":"20px",
       }}
     >
-      Powered by
+      {/* Powered by
       <a
         ref={liteBadge}
         href={"https://oaservice.it"}
@@ -69,7 +69,7 @@ export const Badge = (props: Props) => {
         }}
       >
         <span> Oa Service</span>
-      </a>
+      </a> */}
     </span>
   );
 };
