@@ -9,7 +9,7 @@ type Props = {
 const defaultTextColor = "#303235";
 
 export const Badge = (props: Props) => {
-  let liteBadge: HTMLAnchorElement | undefined;
+  //let liteBadge: HTMLAnchorElement | undefined;
   // let observer: MutationObserver | undefined;
 
   // const appendBadgeIfNecessary = (mutations: MutationRecord[]) => {
@@ -57,7 +57,7 @@ export const Badge = (props: Props) => {
     >
       Powered by
       <a
-        ref={liteBadge}
+        //ref={liteBadge}
         href={"https://oaservice.it"}
         target="_blank"
         rel="noopener noreferrer"
@@ -65,7 +65,8 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{
           "font-weight": "bold",
-          color: props.poweredByTextColor ?? defaultTextColor,          
+          color: props.poweredByTextColor ?? defaultTextColor, 
+          "background-color": props.badgeBackgroundColor ?? "#ffffff",         
         }}
       >
         <span> Oa Service</span>
